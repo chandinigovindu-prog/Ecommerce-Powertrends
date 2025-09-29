@@ -1,101 +1,73 @@
-# Ecommerce-Powertrends
-Powertrends is a modern and responsive web project designed to highlight trending products with style and simplicity. It provides a clean interface, intuitive navigation, and engaging visuals that make browsing products effortless and appealing. Built with a focus on performance and user experience
-# Trendovia Gallery
+# Welcome to your Lovable project
 
-Trendovia Gallery is a modern, responsive web project that showcases curated product imagery and visual collections. Designed with a clean aesthetic and smooth interactions, it’s ideal as a portfolio, product highlight page, or a visual storefront preview.
+## Project info
 
+**URL**: https://lovable.dev/projects/e5d0c177-6000-47a3-97d2-20f242cb9af3
 
-## Features
+## How can I edit this code?
 
-* Responsive, mobile-first gallery layout
-* Masonry/grid product gallery with hover previews
-* Filterable categories and simple navigation
-* Lightbox or modal for viewing product details (if implemented)
-* Clean, minimal UI focused on imagery and presentation
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## Technologies
+Simply visit the [Lovable Project](https://lovable.dev/projects/e5d0c177-6000-47a3-97d2-20f242cb9af3) and start prompting.
 
-* HTML5 & CSS3 (Flexbox / Grid)
-* JavaScript (vanilla or framework-specific code)
-* Optional: build tools (npm, Vite, Webpack), preprocessors (Sass)
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## Getting Started
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Prerequisites
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-* Node.js & npm (only if the project uses a build step)
+Follow these steps:
 
-### Install & Run Locally
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-1. Clone the repository:
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-```bash
-git clone <repository-url>
-cd <project-folder>
-```
+# Step 3: Install the necessary dependencies.
+npm i
 
-2. If there is a `package.json`, install dependencies:
-
-```bash
-npm install
-```
-
-3. Start the development server (if applicable):
-
-```bash
-npm start
-# or
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-4. If the project is static, you can open `index.html` in your browser.
+**Edit a file directly in GitHub**
 
----
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## Folder Structure (example)
+**Use GitHub Codespaces**
 
-```
-/project-root
-│  README.md
-│  index.html
-│  package.json
-│
-├─ src/
-│   ├─ css/
-│   ├─ js/
-│   └─ assets/
-└─ public/
-```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-> Adjust this to match your repository’s actual structure.
+## What technologies are used for this project?
 
----
+This project is built with:
 
-## Customization
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-* Replace images in the `assets` folder to showcase your own products.
-* Update layout and styling via the CSS files or variables.
-* Add a backend or API to serve dynamic content and product metadata.
+## How can I deploy this project?
 
----
+Simply open [Lovable](https://lovable.dev/projects/e5d0c177-6000-47a3-97d2-20f242cb9af3) and click on Share -> Publish.
 
-## Deployment
+## Can I connect a custom domain to my Lovable project?
 
-Deploy the project to any static host (Netlify, Vercel, GitHub Pages) or a general host for dynamic setups.
+Yes, you can!
 
----
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-## Contributing
-
-Contributions and improvements are welcome. To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-change`)
-3. Commit your changes (`git commit -m "feat: add ..."`)
-4. Push to the branch and open a pull request
-
----
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
